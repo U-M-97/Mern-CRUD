@@ -1,0 +1,76 @@
+.login-body{
+    background-color: lightgray;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+
+.l-Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-top: 150px;
+    height: 450px;
+    border-radius: 12px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 140px;
+}
+
+.l-inputs{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.l-header{
+    background: none;
+    margin-top: 60px;
+}
+
+.l-i1{
+    background: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #f8f8f8;
+    width: 90%;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+.l-b1{
+    padding: 10px;
+    border-radius: 7px;
+    width: 70%;
+    background: none;
+    border: none;
+    background-color: #4796ff;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.l-b1:hover{
+    transition: 0.3s;
+    background-color: #006eff;
+    color: black;
+    
+}
+
+.l-createAccount{
+    background: none;
+    margin-top: 20px;
+}

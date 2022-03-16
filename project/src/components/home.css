@@ -1,0 +1,145 @@
+.home-body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.main{
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 800px 500px 100px;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "content content content content"
+    "cards cards cards cards"
+    "footer footer footer footer";
+    grid-gap: 0.5rem;
+    text-align: center;
+}
+
+.content{
+    
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+.cards{
+    
+    grid-area: cards;
+}
+
+.footer{
+    
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Links{
+    
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.link-item{
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+
+
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-right: 250px;
+}
+
+.personal-info{
+
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.left{
+    background-color: #e0edf5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    background-color: #f2f7fa;
+}
+
+.product-image{
+    height: 250px;
+    width: 250px;
+}
+
+.card-items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.items{
+    background-color: white;
+    width: 400px;
+    margin: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nameofproduct{
+    
+}
+
+.priceofproduct{
+    
+    position: relative;
+    bottom: 30px;
+}
+
+.f-items{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-entries{
+    font-size: 60px;
+    color: #0048FF;
+}
+
+
+
+
+
+
+
